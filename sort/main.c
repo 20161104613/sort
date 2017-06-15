@@ -9,7 +9,7 @@
 #include <stdio.h>
 int main()
 {
-    int a[10];
+    int a[5][10];
     int j,i,t;;
     FILE *fp1,*fp2;
     //char ch;
@@ -23,7 +23,7 @@ int main()
     //printf("请输入10个数：\n");
     for(i=0;i<10;i++)
     {
-        fscanf(fp2,"%d",&a[i]);
+        while(fscanf(fp2,"%d",&a[0][i]);
     }
     for(j=0;j<9;j++)
     {
